@@ -41,3 +41,10 @@ Notice: /Stage[main]/Main/Notify[Location is: developerville]/message: defined '
 ```
 
 > Pregunta 2 : Vamos a cambiar los NTP de devopsville. Crea un nuevo archivo en el lugar adecuado (location) con los valores de los DNS adecuados para devopsville. Finalmente comprueba que todo funciona.
+
+> Pregunta 3 : Ahora que ya eres un experto de puppet, dirígete a puppet forge y busca los módulos necesarios para realizar las siguientes acciones en nuestro stack, Usaremos el agent de webserver. Recuerda subir todo a gitlab y comparte el repo con el usuario @BusyNinja.
+> - ntp en todos los servidores con el mismo endpoint, configurado en hiera
+> - llaves ssh : añadir las llaves desde hiera
+> - php-fpm : configurar el servicio desde hiera
+> - webserver : que puedas configurar un virtualhost desde el hiera
+> - database : que puedas crear bbdd y users desde el módulo
